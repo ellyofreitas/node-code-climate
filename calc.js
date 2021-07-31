@@ -8,14 +8,9 @@ module.exports = (op, a, b) => {
   assert(!!a, 'a must be required');
   assert(!!b, 'b must be required');
 
-  switch (op) {
-    case '+':
-      return sum(a, b);
-    case '-':
-      return sub(a, b);
-    case '*':
-      return mut(a, b);
-    default:
-      throw new Error('op not implemented')
-  }
+  if (op === '+') { return sum(a, b); }
+  if (op === '-') { return sub(a, b); }
+  if (op === '*') { return mut(a, b); }
+
+  throw new Error('op not implemented')
 }

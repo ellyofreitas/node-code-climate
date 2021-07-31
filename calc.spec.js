@@ -13,7 +13,6 @@ describe('calc', () => {
     expect(() => calc('+', 1)).toThrow(new TypeError('b must be required'));
   });
 
-
   test("should be sum", () => {
     const result = calc('+', 1, 1);
 
