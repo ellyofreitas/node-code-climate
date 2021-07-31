@@ -1,0 +1,8 @@
+version: '2'
+exclude_patterns:
+    # NodeJS
+    - '**/node_modules/'
+    # Tests/Jest
+    - 'coverage'
+    - '*.spec.js'
+    - 'jest.config.js'
