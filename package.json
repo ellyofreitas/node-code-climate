@@ -1,0 +1,7 @@
+{
+  "name": "node-code-climate",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Ellyo Freitas <ellyofreitas13@gmail.com>",
+  "license": "MIT"
+}
