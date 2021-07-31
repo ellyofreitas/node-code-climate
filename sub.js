@@ -1,6 +1,7 @@
+const checkParams = require('./check-params');
+
 module.exports = (a, b) => {
-  if (!a) throw new TypeError('a must be required')
-  if (!b) throw new TypeError('b must be required')
+  checkParams(a, b);
 
   return a - b;
 };
