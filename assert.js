@@ -1,3 +1,3 @@
 module.exports = (conditional, message) => {
-  if (conditional) throw new Error(message)
+  if (!conditional) throw new Error(message)
 }

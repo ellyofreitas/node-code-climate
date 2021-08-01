@@ -1,7 +1,1 @@
-const checkParams = require('./check-params');
-
-module.exports = (a, b) => {
-  checkParams(a, b)
-
-  return a + b;
-};
+module.exports = (a, b) => a + b
