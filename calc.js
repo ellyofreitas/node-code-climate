@@ -6,19 +6,25 @@ const assert = require('./assert');
 
 module.exports = (op, a, b) => {
   assert(!!op, 'op must be required');
-  assert(!!a, 'a must be required');
-  assert(!!b, 'b must be required');
 
   if (op === '+') {
+    if (!a) throw new Error('a must be required')
+    if (!b) throw new Error('b must be required')
     return sum(a, b);
   }
   if (op === '-') {
+    if (!a) throw new Error('a must be required')
+    if (!b) throw new Error('b must be required')
     return sub(a, b);
   }
   if (op === '*') {
+    if (!a) throw new Error('a must be required')
+    if (!b) throw new Error('b must be required')
     return mut(a, b);
   }
   if (op === '/') {
+    if (!a) throw new Error('a must be required')
+    if (!b) throw new Error('b must be required')
     return div(a, b);
   }
 
