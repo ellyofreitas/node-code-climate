@@ -1,2 +1,3 @@
 # Node Code Climate
+[![Codacy Badge](https://api.codacy.com/project/badge/Grade/e972727f96b64bf49f78d9331f939d49)](https://app.codacy.com/gh/ellyofreitas/node-code-climate?utm_source=github.com&utm_medium=referral&utm_content=ellyofreitas/node-code-climate&utm_campaign=Badge_Grade_Settings)
 [![Maintainability](https://api.codeclimate.com/v1/badges/50fc72404e37f3589985/maintainability)](https://codeclimate.com/github/ellyofreitas/node-code-climate/maintainability)[![Test Coverage](https://api.codeclimate.com/v1/badges/50fc72404e37f3589985/test_coverage)](https://codeclimate.com/github/ellyofreitas/node-code-climate/test_coverage)
